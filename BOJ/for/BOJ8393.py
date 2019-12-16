@@ -1,7 +1,11 @@
-a = int(input())
-result =0
+import sys
 
-for i in range(0,a):
-    result += i
+a = int(sys.stdin.readline())
+# result =0
 
-print(result)
+# for i in range(a+1):
+#     result += i
+
+# print(result)
+
+print("")
