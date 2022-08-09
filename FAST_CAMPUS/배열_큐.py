@@ -1,13 +1,13 @@
 #배열
-# dataset = ['mical','Mical','MMMical']
+dataset = ['mical','Mical','MMMical']
 
-# m_count = 0
-# for data in dataset:
-#     for idx in range(len(data)):
-#         if data[idx] == 'M':
-#             m_count += 1
+m_count = 0
+for data in dataset:
+    for idx in range(len(data)):
+        if data[idx] == 'M':
+            m_count += 1
 
-# print(m_count)
+print(m_count)
 
 #큐
 import queue
@@ -47,3 +47,4 @@ for index in range(10):
 print(len(queue_list))
 print(dequeue())
 print(dequeue())
+
